@@ -16,16 +16,16 @@
         </select>
     </div>
 
-    <div class="mb-3">
+    <<div class="mb-3">
         <label asp-for="DueDate" class="form-label">Due Date:</label>
-        <input asp-for="DueDate" class="form-control" type="text" />
+        <input asp-for="DueDate" class="form-control" type="date" />
     </div>
 
     <div class="mb-3">
         <label asp-for="StatusId" class="form-label">Status:</label>
-        <select asp-for="StatusId" class="form-select" asp-items="@(new SelectList(ViewBag.Statuses,"StatusId", "Name"))">
-        </select>
+        <input asp-for="StatusId" class="form-control"  readonly />
     </div>
+
     <button type="submit" class="btn btn-primary">Add</button>
     <a asp-action="Index" class="btn btn-primary">Cancel</a>
 </form>
