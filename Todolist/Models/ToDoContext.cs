@@ -18,7 +18,7 @@ namespace Todolist.Models
                     new Category { CategoryId = "work", Name = "Work" },
                     new Category { CategoryId = "home", Name = "Home" },
                     new Category { CategoryId = "ex", Name = "Exercise" },
-                    new Category { CategoryId = "shop", Name = "Shopping" },
+                    new Category { CategoryId = "shop", Name = "Shopping" }
           
 
                 );
